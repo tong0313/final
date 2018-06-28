@@ -1,0 +1,84 @@
+Window xClass=WpfApp13.MainWindow
+        xmlns=httpschemas.microsoft.comwinfx2006xamlpresentation
+        xmlnsx=httpschemas.microsoft.comwinfx2006xaml
+        xmlnsd=httpschemas.microsoft.comexpressionblend2008
+        xmlnsmc=httpschemas.openxmlformats.orgmarkup-compatibility2006
+        xmlnslocal=clr-namespaceWpfApp13
+        mcIgnorable=d
+        Title=MainWindow Height=550 Width=525
+    Grid Background=#FF4F6585
+        Grid Width=100 Height=90 VerticalAlignment=Top Background=#FF7C9DA6 
+            TextBlock  TextAlignment=Center FontSize=32 Foreground=#FF6B878F Margin=0 5 0 0 FontWeight=Bold xName=Final賽末點TextBlock
+            TextBlock  TextAlignment=Center FontSize=32 Foreground=#FF6B878F Margin=0 45 0 0 xName=DeuceDeuceTextBlock
+        Grid
+        Grid Height=20 Width=500 Margin=0 -375 0 0
+            Grid Width=20 Margin=-450 0 0 0 Background=#FF8C9AB2 xName=ColorA
+            Grid
+            ComboBox Height=20 Width=40 Margin=-390 0 0 0 xName=ComboA
+                Button Background=#FF32353E Height=20 Width=32 xName=BlackA Click=BlackA_ClickButton
+                Button Background=#FFA65555 Height=20 Width=32 xName=Red Click=RED_ClickButton
+                Button Background=#FFF9FBFD Height=20 Width=32  xName=WhiteA Click=WhiteA_ClickButton
+                Button Background=#FFD77BAB Height=20 Width=32 xName=BlueA Click=BlueA_ClickButton                
+                Button Background=#FFF3CD68 Height=20 Width=32 xName= OrangeA Click=OrangeA_ClickButton                
+                Button Background=#FF528857 Height=20 Width=32 xName= GreenA Click=GreenA_ClickButton
+            ComboBox
+        Grid
+        Grid Height=20 Width=500 Margin=0 -375 0 0
+            Grid Width=20 Margin=450 0 0 0 Background=#FF8C9AB2 xName=ColorB 
+                ComboBox Height=20 Width=40 Margin=-60 0 0 0 xName=ComboB
+                    Button Background=#FF32353E Height=20 Width=32 xName=BlackB Click=BlackB_ClickButton                   
+                    Button Background=#FFA65555 Height=20 Width=32 xName=RedB Click=RedB_Click Button
+                    Button Background=#FFF9FBFD Height=20 Width=32  xName=WhiteB Click=WhiteB_Click Button                    
+                    Button Background=#FFD77BAB Height=20 Width=32 xName=BlueB Click=BlueB_ClickButton
+                    Button Background=#FFF3CD68 Height=20 Width=32 xName= OrangeB Click=OrangeB_Click Button
+                    Button Background=#FF528857 Height=20 Width=32 xName= GreenB Click=GreenB_Click Button
+
+                ComboBox
+            Grid
+        Grid
+        Grid Height=175 Width=255 Margin=-257 -150 0 0 xName=TeamA Background=#FF8C9AB2 
+            Grid Height=60 Width=80 Background=#FFE6C070 Margin=0 115 0 0 xName=PointA             
+                TextBlock  Margin=22 10 0 0 FontSize=30 xName=PPontA Foreground=#FF4F6585 00TextBlock
+            Grid
+            Button Height=30 Width=30 Margin=120 110 0 0 Click=Button_Click 
+                TextBlock FontSize=25 TextAlignment=Center Margin=0 -6 0 0 xName=AddA +
+                TextBlock
+            Button
+            Button Height=30 Width=30 Margin=-120 110 0 0 Click=Button_Click_2 
+                TextBlock FontSize=25 TextAlignment=Center Margin=0 -6 0 0 xName=ReduceA -
+                TextBlock
+            Button
+
+        Grid
+        Grid Height=175 Width=255 Background=#FF8C9AB2 Margin=256 -150 0 0 xName=TeamB
+            Button Height=30 Width=30 Margin=120 110 0 0 Click=Button_Click_1 
+                TextBlock FontSize=25 TextAlignment=Center Margin=0 -6 0 0 xName=AddB +
+                TextBlock
+            Button
+            Grid Height=60 Width=80 Background=#FFE6C070 Margin=0 115 0 0 xName=PointB 
+                TextBlock Margin=22 10 0 0 FontSize=30 xName=PPontB Foreground=#FF4F658500TextBlock
+            Grid
+            Button Height=30 Width=30 Margin=-120 110 0 0 Click=Button_Click_3 
+                TextBlock FontSize=25 TextAlignment=Center Margin=0 -6 0 0 xName=ReduceB -
+                TextBlock
+            Button
+        Grid
+        Grid  Height=70 Width=100 Margin=0 150 0 0 Background=#FF7C9DA6
+            Grid Height=20 Width=20 Margin=-75 -40 0 0  xName=WinGrid
+            TextBlock FontSize=20 VerticalAlignment=Top Margin=23 0 0 0 Foreground=#FFD4ECF3 FontWeight=Bold勝場數 TextBlock
+            TextBlock FontSize=40 VerticalAlignment=Bottom TextAlignment=Center Foreground=#FFD4ECF3 xName=WinNumber0TextBlock
+        Grid
+        Grid  Height=80 Width=120 Margin=0 330 0 0 Background=#FF7C9DA6
+            TextBlock FontSize=30 TextAlignment=Center Foreground=#FFC4ECF3 FontWeight=Bold隊伍數 TextBlock
+            TextBlock FontSize=40 VerticalAlignment=Bottom TextAlignment=Center Margin= 0 0 0 0  Foreground=#FFD4ECF3 xName=Play 0TextBlock
+        Grid
+        Button Height=45 Width=45 Margin=180 325 0 0 Click=Button_Click_4  
+            TextBlock FontSize=30 TextAlignment=Center Margin=0 -6 0 0 xName=AddPlay +
+            TextBlock
+        Button
+        Button Height=45 Width=45 Margin=-180 325 0 0 Click=Button_Click_5  
+            TextBlock FontSize=30 TextAlignment=Center Margin=0 -6 0 0 xName=ReducePlay -
+            TextBlock
+        Button
+    Grid
+Window
